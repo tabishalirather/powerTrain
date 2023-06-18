@@ -12,11 +12,15 @@
 
 <body>
 	<h1>Conway's PowerTrain</h1>
-	<label for="numberInput">Enter a number:</label>
+	<!-- <label for="numberInput">Enter a number:</label>
 	<input type="text" id="numberInput">
-	<button onclick="raiseToPower()">Submit</button>
+	<button onclick="raiseToPower()">Submit</button> -->
 
-
+	<form onsubmit="event.preventDefault(); raiseToPower();">
+		<label for="numberInput">Enter a number:</label>
+		<input type="text" id="numberInput">
+		<button type="submit">Submit</button>
+	</form>
 	<div id="outputDiv"></div>
 	<!-- <script>
 		// Redirect console.log to the webpage
