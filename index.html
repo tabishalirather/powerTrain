@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 	<link rel="stylesheet" type="text/css" href="style.css"> -->
+<!-- 	<script src="app.js"></script> -->
+	<title>PowerTrain</title>
+</head>
+
+<body>
+	<h1>Conway's PowerTrain</h1>
+	<!-- <label for="numberInput">Enter a number:</label>
+	<input type="text" id="numberInput">
+	<button onclick="raiseToPower()">Submit</button> -->
+
+	<form onsubmit="event.preventDefault(); raiseToPower();">
+		<label for="numberInput">Enter a number:</label>
+		<input type="text" id="numberInput">
+		<button type="submit">Submit</button>
+	</form>
+	<div id="outputDiv"></div>
+	<!-- <script>
+		// Redirect console.log to the webpage
+		console.log = function (message) {
+			var logDiv = document.getElementById("consoleLog");
+			logDiv.innerHTML += message + "<br>";
+		};
+	</script> -->
+	<div id="consoleLog"></div>
+	<!-- <script src="app.js"></script> -->
+</body>
+
+</html>
 
