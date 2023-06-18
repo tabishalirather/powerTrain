@@ -1,0 +1,95 @@
+/* body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+      }
+
+      h1 {
+	text-align: center;
+      }
+
+      label {
+	font-weight: bold;
+      }
+
+      input[type="text"] {
+	padding: 5px;
+	font-size: 16px;
+      }
+
+      button {
+	padding: 8px 16px;
+	font-size: 16px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	cursor: pointer;
+      }
+
+      #outputDiv {
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	background-color: #f9f9f9;
+	line-height: 1.4;
+      }
+
+      #consoleLog {
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	background-color: #f9f9f9;
+	line-height: 1.4;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+      } */
+
+      body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+      }
+
+      h1 {
+	text-align: center;
+      }
+
+      label {
+	font-weight: bold;
+      }
+
+      input[type="text"] {
+	padding: 5px;
+	font-size: 16px;
+      }
+
+      button {
+	padding: 8px 16px;
+	font-size: 16px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	cursor: pointer;
+      }
+
+      #outputDiv {
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	background-color: #f9f9f9;
+	line-height: 1.4;
+      }
+
+      #outputDiv > .digits-array {
+	margin-bottom: 10px;
+      }
+
+      #consoleLog {
+	margin-top: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	background-color: #f9f9f9;
+	line-height: 1.4;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+      }

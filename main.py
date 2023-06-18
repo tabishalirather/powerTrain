@@ -11,9 +11,9 @@ def readNumber():
     return digitsArray
 
 
-def raiseToPower(number):
+def raiseToPower():
 
-    # number = input("Enter a number: ")
+    number = input("Enter a number: ")
     print("Number:", number)
     j = 0
     while(int(number) / 9 > 1):
@@ -47,35 +47,25 @@ def raiseToPower(number):
             newNum = result
             print("newNum", newNum)
             number = result
-            return number
+            # return number
     print("weight", j)
+    # numberInput.value = "";
 
-
-def allNumbers(i):
-    # print(i)
-    print("Hello")
-    number = raiseToPower(i)
-    if(number != i):
-        print("Not Conway number")
-    else:
-        print("Conway number", i)
-        # break
+# def allNumbers(i):
+#     # print(i)
+#     print("Hello")
+#     number = raiseToPower(i)
+#     if(number != i):
+#         print("Not Conway number")
+#     else:
+#         print("Conway number", i)
+#         # break
 
 
 
 
 def main():
-    i = 11
-    while (i < 2000):
-        if(i == 2592):
-            print("End")
-            break
-            # i += 1
-        # raiseToPower(i)
-        else:
-            print("Not 2592")
-            allNumbers(i)
-            i += 1
+    raiseToPower()
 
 
 main()
